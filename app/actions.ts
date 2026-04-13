@@ -22,12 +22,21 @@ export async function sendContactEmail(
   }
 
   try {
+    // Email interne — notification à HS Digital
     await resend.emails.send({
       from: "HS Digital <noreply@hsdigital.fr>",
       to: "contact@hsdigital.fr",
       subject: `Nouveau message de ${name}`,
       text: `Nom : ${name}\nEmail : ${email}\n\nMessage :\n${message}`,
       replyTo: email,
+    });
+
+    // Email de confirmation au client
+    await resend.emails.send({
+      from: "HS Digital <noreply@hsdigital.fr>",
+      to: email,
+      subject: "On a bien reçu votre message — HS Digital",
+      text: `Bonjour ${name},\n\nMerci pour votre message. On l'a bien reçu et on revient vers vous sous 24h avec une réponse honnête.\n\nÀ très vite,\nL'équipe HS Digital\ncontact@hsdigital.fr`,
     });
 
     return { success: true };
