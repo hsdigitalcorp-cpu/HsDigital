@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "HS Digital — Automatisation IA & Acquisition Digitale",
   description:
     "On s'occupe du digital. Vous vous occupez du reste. Automatisation IA et acquisition digitale pour les entrepreneurs qui ont mieux à faire.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
