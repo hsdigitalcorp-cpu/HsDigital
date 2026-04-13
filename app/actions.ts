@@ -23,9 +23,8 @@ export async function sendContactEmail(
 
   try {
     await resend.emails.send({
-      // Replace with a verified domain in production: "HS Digital <noreply@votredomaine.fr>"
-      from: "HS Digital <onboarding@resend.dev>",
-      to: process.env.EMAIL_TO || "hs.digitalcorp@gmail.com",
+      from: "HS Digital <noreply@hsdigital.fr>",
+      to: "contact@hsdigital.fr",
       subject: `Nouveau message de ${name}`,
       text: `Nom : ${name}\nEmail : ${email}\n\nMessage :\n${message}`,
       replyTo: email,
