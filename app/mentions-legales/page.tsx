@@ -42,10 +42,10 @@ export default function MentionsLegalesPage() {
               <p>
                 Email :{" "}
                 <a
-                  href="mailto:hs.digitalcorp@gmail.com"
+                  href="mailto:contact@hsdigital.fr"
                   className="text-[#6A8AFF] hover:underline"
                 >
-                  hs.digitalcorp@gmail.com
+                  contact@hsdigital.fr
                 </a>
               </p>
             </Section>
@@ -91,10 +91,10 @@ export default function MentionsLegalesPage() {
               <p>
                 Email :{" "}
                 <a
-                  href="mailto:hs.digitalcorp@gmail.com"
+                  href="mailto:contact@hsdigital.fr"
                   className="text-[#6A8AFF] hover:underline"
                 >
-                  hs.digitalcorp@gmail.com
+                  contact@hsdigital.fr
                 </a>
               </p>
             </Section>

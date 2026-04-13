@@ -18,10 +18,10 @@ export default function Footer() {
               Vous vous occupez du reste.
             </p>
             <a
-              href="mailto:hs.digitalcorp@gmail.com"
+              href="mailto:contact@hsdigital.fr"
               className="text-sm text-white/35 hover:text-[#6A8AFF] transition-colors mt-1"
             >
-              hs.digitalcorp@gmail.com
+              contact@hsdigital.fr
             </a>
           </div>
 

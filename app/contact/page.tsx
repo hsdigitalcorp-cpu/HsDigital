@@ -67,10 +67,10 @@ export default function ContactPage() {
                 <div className="flex items-center gap-3">
                   <Mail size={14} className="text-[#6A8AFF] shrink-0" />
                   <a
-                    href="mailto:hs.digitalcorp@gmail.com"
+                    href="mailto:contact@hsdigital.fr"
                     className="text-sm text-[#0F172A]/60 hover:text-[#6A8AFF] transition-colors"
                   >
-                    hs.digitalcorp@gmail.com
+                    contact@hsdigital.fr
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
